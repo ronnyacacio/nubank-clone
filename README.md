@@ -8,11 +8,12 @@
 
 | Main                          | Menu                          | GIF                                                              |
 | ----------------------------- | ----------------------------- | ---------------------------------------------------------------- |
-| ![](nubank/.github/main.jpeg) | ![](nubank/.github/menu.jpeg) | <img src="nubank/.github/nubank.gif" width="700" height="560" /> |
+| ![](nubank/.github/main.jpeg) | ![](nubank/.github/menu.jpeg) | <img src="nubank/.github/nubank.gif" width="700" height="500" /> |
 
 ## Tecnologias
 
 - [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
 ## 💻 Projeto
 
