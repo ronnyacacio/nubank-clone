@@ -1,8 +1,7 @@
-import React from "react";
+import React from 'react';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import Icon from "react-native-vector-icons/MaterialIcons";
-
-import { Container, TabsContainer, TabItem, TabText } from "./styles";
+import { Container, TabsContainer, TabItem, TabText } from './styles';
 
 export default function Tabs({ translateY }) {
   return (
@@ -13,15 +12,15 @@ export default function Tabs({ translateY }) {
             translateY: translateY.interpolate({
               inputRange: [0, 380],
               outputRange: [0, 30],
-              extrapolate: "clamp"
-            })
-          }
+              extrapolate: 'clamp',
+            }),
+          },
         ],
         opacity: translateY.interpolate({
           inputRange: [0, 130],
           outputRange: [1, 0.3],
-          extrapolate: "clamp"
-        })
+          extrapolate: 'clamp',
+        }),
       }}
     >
       <TabsContainer>

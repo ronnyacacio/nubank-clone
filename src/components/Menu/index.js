@@ -1,8 +1,6 @@
-import React from "react";
-
-import QRCode from "react-native-qrcode-svg";
-
-import Icon from "react-native-vector-icons/MaterialIcons";
+import React from 'react';
+import QRCode from 'react-native-qrcode-svg';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
   Container,
@@ -11,8 +9,8 @@ import {
   NavItem,
   NavText,
   SignOutButton,
-  SignOutButtonText
-} from "./styles";
+  SignOutButtonText,
+} from './styles';
 
 export default function Menu({ translateY }) {
   return (
@@ -20,8 +18,8 @@ export default function Menu({ translateY }) {
       style={{
         opacity: translateY.interpolate({
           inputRange: [0, 150],
-          outputRange: [0, 1]
-        })
+          outputRange: [0, 1],
+        }),
       }}
     >
       <Code>
