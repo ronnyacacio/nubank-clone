@@ -49,6 +49,20 @@ Esse projeto foi feito para treinar a minha habilidade de criação de UI's mobi
 - [Expo](https://expo.io/)
 - [Styled Components](https://styled-components.com/)
 
+## 🔥 Instalação
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/ronnyacacio/nubank-clone.git
+
+# Entre na pasta nubank-clone e execunte os comandos:
+$ yarn
+$ expo start
+
+# Observações:
+Voçê deve instalar o app expo no seu celular e escanear o qrcode gerado
+```
+
 <p align="center">
   Made with 💜 by <a href="https://www.linkedin.com/in/ronnyacacio/"> Ronny Acácio </a>
 </p>
