@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Clone Nubank" title="#delicinha" src=".github/nubank.jpeg" height="200px" width="500px" />
+  <img alt="Clone Nubank" title="#delicinha" src=".github/nubank.jpeg" width="500px" />
   <br/>
 </h1>
 
